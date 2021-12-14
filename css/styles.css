@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  margin: 4rem auto 0.5rem;
+  font-family: "Linux Libertine", Georgia, Times, serif;
+  font-size: 1.4rem;
+}
+
+header h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+header h1 span {
+  font-size: 1.3em;
+}
+
+header h2 {
+  font-size: 1.2rem;
+}
+
+main {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .main-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 540px;
+  width: 80vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Wikipedia_logo_%28svg%29.svg/1250px-Wikipedia_logo_%28svg%29.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+}
+
+main .main-languages a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3366d3;
+  font-size: 2rem;
+  font-size: medium;
+  font-weight: 600;
+}
+
+main .main-languages h3 {
+  color: #54595d;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin-top: 0.4rem;
+}
+
+main .main-languages a:hover {
+  text-decoration: underline;
+}
+
+main .main-languages .row {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+main .main-languages .box1 {
+  width: 80%;
+}
+
+main .main-languages .box2 {
+  width: 95%;
+}
+
+main .main-languages .box3 {
+  width: 100%;
+}
+
+section.main-search {
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+section .main-search-input {
+  width: 40vw;
+  height: 4rem;
+  border: 1px solid #797d81;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2px 0px 0px 2px;
+}
+
+section .main-search-input:hover {
+  border-color: #2e3031;
+}
+
+section .main-search-input input {
+  width: 30vw;
+  border: none;
+  margin-left: 1rem;
+  font-stretch: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: large;
+  outline: none;
+}
+
+section .main-search-input select {
+  border: none;
+  margin-right: 2rem;
+  outline: none;
+  cursor: pointer;
+  color: #797d81;
+}
+
+section.main-search button {
+  width: 45px;
+  height: 40px;
+  background-color: #36c;
+  border-color: #36c;
+  cursor: pointer;
+  border-radius: 0px 2px 2px 0px;
+  box-shadow: 0;
+  border: none;
+}
+
+.main-search button .search-button-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background: linear-gradient(transparent, transparent),
+    url(https://wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+  background-position: 0 -697px;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  text-indent: -9999px;
+}
+
+section.main-menu {
+  width: 60vw;
+  display: flex;
+  margin: 3rem 2rem;
+  justify-content: space-between;
+}
+
+section.main-menu select {
+  height: 3.3rem;
+  padding: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3366d3;
+  font-weight: 700;
+  margin: 0 2rem;
+  outline: none;
+}
+
+section.main-menu .line {
+  height: 1px;
+  width: 80%;
+  border: rgb(200, 204, 209) solid 1px;
+  margin-top: calc(3.3rem / 2);
+}
+
+main div.line2 {
+  height: 1px;
+  width: 90%;
+  border: rgb(200, 204, 209) solid 1px;
+}
+
+footer {
+  display: flex;
+}
+
+footer aside {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
