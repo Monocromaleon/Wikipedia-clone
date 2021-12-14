@@ -181,13 +181,3 @@ main div.line2 {
   width: 90%;
   border: rgb(200, 204, 209) solid 1px;
 }
-
-footer {
-  display: flex;
-}
-
-footer aside {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-}
